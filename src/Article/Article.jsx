@@ -7,6 +7,7 @@ const Article = () => {
       <meta charset="utf-8"/>
       <title>article</title>
     </head>
+
     <body>
       <div>
       <h1>The Statue of Liberty's torch heads to new museum</h1>
