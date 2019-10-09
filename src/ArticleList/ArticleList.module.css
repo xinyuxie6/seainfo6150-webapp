@@ -1,0 +1,17 @@
+.article{
+    border-style: dashed;
+    margin: 20px;
+    background-color: rgb(143, 140, 140);
+}
+
+.list{
+    border-style: solid;
+    border-color: red;
+    margin: 20px;
+    padding: 10px;
+    background-color: rgb(216, 216, 216);
+
+}
+
+
+

@@ -1,17 +1,21 @@
 import React from "react";
 import PropTypes from 'prop-types'
 import ArticleListItem from "./ArticleListItem"
+import styles from "./ArticleList.module.css";
+
 
 
 const ArticleList = props => {
   return (
-    <ul>
+    <article className={styles.article}>
+    <dl>
       {props.articles.map(article => (
-        <li key={article.slug}>
+        <dt className={styles.list} key={article.slug}>
           <ArticleListItem article={article}/>
-        </li>
+        </dt>
       ))}
-    </ul>
+    </dl>
+    </article>
   );
 };
 

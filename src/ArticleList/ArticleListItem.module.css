@@ -1,0 +1,23 @@
+.h3{
+    color: red;
+    font-size: 30px;
+}
+
+.p{
+    font-size: 20px;
+}
+
+.time{
+    font-weight: bold;
+    flex:auto
+}
+
+.kk{
+    flex:auto
+
+}
+
+.content{
+    display: flex;
+    column-gap: 50%;
+}
