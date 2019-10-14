@@ -1,0 +1,6 @@
+.image{
+    border:15px solid;
+    border-color: red;
+    border-radius:50%;
+    width: 150px;
+}

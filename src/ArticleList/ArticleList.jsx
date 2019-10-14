@@ -1,6 +1,7 @@
 import React from "react";
 import PropTypes from 'prop-types'
 import ArticleListItem from "./ArticleListItem"
+import ArticleImage from "./ArticleImage"
 import styles from "./ArticleList.module.css";
 
 
@@ -11,6 +12,7 @@ const ArticleList = props => {
     <dl>
       {props.articles.map(article => (
         <dt className={styles.list} key={article.slug}>
+          <ArticleImage article={article}/>
           <ArticleListItem article={article}/>
         </dt>
       ))}
