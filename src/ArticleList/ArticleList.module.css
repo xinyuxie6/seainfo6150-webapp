@@ -3,6 +3,15 @@
     border-style: dashed;
     margin: 20px;
     background-color: rgb(143, 140, 140);
+ 
+}
+
+.temp{
+    display: grid;
+    grid-template-areas: "a a a";
+    grid-gap: 10px;
+    grid-auto-columns: auto;
+    margin: 10px;
 }
 
 .list{
@@ -13,8 +22,8 @@
     padding: 10px;
     background-color: rgb(216, 216, 216);
     display: grid;
-    grid-template-columns: 1fr 5fr;
-    background-image: linear-gradient(to right,rgba(126, 25, 25, 0.452), rgb(216, 216, 216) 10%);
+    /* grid-template-columns: 1fr 5fr; */
+    background-image: linear-gradient(to right,rgba(126, 25, 25, 0.452), rgb(216, 216, 216) 20%);
 
 }
 

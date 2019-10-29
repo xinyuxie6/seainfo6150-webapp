@@ -1,10 +1,10 @@
 .button{
-    padding: 15px 75px;
+    padding: 15px 100px;
+    width: 100%;
     border: rgb(199, 195, 195);
     border-style: solid;
     color:white;
     background-color: red;
-    font-size: 24px;
-    border-radius: 25px;
-
+    font-size: 20px;
+    border-radius: 20px;
 }

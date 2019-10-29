@@ -5,12 +5,12 @@ import SlugButton from "./SlugButton"
 
 const ArticleListItem = ({article}) => {
     return(
-        <div>
+        <div className={styles.container}>
           <h3 className={styles.h3}>{article.title}</h3>
           <p className={styles.p}>{article.shortText}</p>
           <div className={styles.content}>
             <time className={styles.time} dateTime={article.pubDate}>{article.pubDate}</time>
-            <SlugButton className={styles.kk} button={article}/>     
+            <SlugButton className={styles.button} button={article}/>     
           </div>
         </div>
     )

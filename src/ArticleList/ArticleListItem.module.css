@@ -1,3 +1,7 @@
+.container{
+    display: grid;
+}
+
 .h3{
     color: red;
     font-size: 30px;
@@ -9,15 +13,14 @@
 
 .time{
     font-weight: bold;
-    flex:auto
+    /* flex:auto */
 }
 
-.kk{
-    flex:auto
-
+.button{
 }
 
 .content{
-    display: flex;
-    column-gap: 50%;
+    /* display: flex;
+    column-gap: 50%; */
+    display:grid;
 }

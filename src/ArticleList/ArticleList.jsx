@@ -9,14 +9,14 @@ import styles from "./ArticleList.module.css";
 const ArticleList = props => {
   return (
     <article className={styles.article}>
-    <dl>
-      {props.articles.map(article => (
-        <dt className={styles.list} key={article.slug}>
-          <ArticleImage article={article}/>
-          <ArticleListItem article={article}/>
-        </dt>
-      ))}
-    </dl>
+      <div className={styles.temp}>
+        {props.articles.map(article => (
+          <div className={styles.list} key={article.slug}>
+            <ArticleImage article={article}/>
+            <ArticleListItem article={article}/>
+          </div>
+        ))}
+      </div>
     </article>
   );
 };
