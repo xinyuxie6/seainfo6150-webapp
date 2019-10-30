@@ -20,7 +20,6 @@
 }
 
 .content{
-    /* display: flex;
-    column-gap: 50%; */
-    display:grid;
+    display: flex;
+    flex-direction: column;
 }
