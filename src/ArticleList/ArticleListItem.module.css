@@ -1,5 +1,7 @@
 .container{
-    display: grid;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
 }
 
 .h3{
@@ -22,4 +24,7 @@
 .content{
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+
+
 }
